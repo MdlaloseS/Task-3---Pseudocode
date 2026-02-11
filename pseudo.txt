@@ -1,9 +1,63 @@
-#1. An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were entered.
+Answer #1. Largest number until zero
 
-#2. An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase “Hello, World”.
+request a positive number from the user
+set largest number to 0
 
-#3. An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+while the number is not equal to 0
+    if the number is greater than the largest number
+        set largest number to the number
+    request another positive number from the user
 
-#4. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy.
+print the largest number entered
 
-#5. An algorithm for the fl owchart on the following page:
+
+Answer #2. Store name and print greeting
+
+request the user's name
+store the name in a variable called first_name
+print first_name and "Hello, World"
+
+
+Answer #3. Arithmetic average of integers
+
+set sum to 0
+set count to 0
+
+request an integer from the user
+
+while the integer is not equal to 0
+    add the integer to sum
+    increase count by 1
+    request another integer from the user
+
+if count is greater than 0
+    calculate average as sum divided by count
+    print the average
+else
+    print "no numbers were entered"
+
+
+Answer #4. Grocery list in alphabetical order
+
+create an empty list called grocery_list
+
+request a grocery item from the user
+
+while the item is not equal to "done"
+    add the item to grocery_list
+    request another grocery item from the user
+
+sort grocery_list in alphabetical order
+
+for each item in grocery_list
+    print the item
+
+
+Answer #5. Flowchart algorithm
+
+read X and Y
+set S to X plus Y
+set A to S divided by 2
+set P to X multiplied by Y
+write S, A and P
+stop
